@@ -3,3 +3,9 @@ variable "instance_name" {
   type        = string
   default     = "m4k3_Instance"
 }
+
+
+variable "server_port" {
+  description = "Port the server will be running on"
+  type        = number
+}
